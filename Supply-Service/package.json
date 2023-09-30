@@ -1,0 +1,22 @@
+{
+    "name": "driverservice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "amqplib": "^0.10.3",
+        "axios": "^1.4.0",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "mongoose": "^7.4.1",
+        "node-cron": "^3.0.2",
+        "ws": "^8.13.0"
+    }
+}

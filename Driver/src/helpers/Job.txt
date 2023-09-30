@@ -1,0 +1,54 @@
+
+D:\Baitap\KTPM\Project\Mobile\Demand_Service\Demand-Service  go run cmd/server/main.go
+D:\Baitap\KTPM\Project\Mobile\Trip-Service  go run cmd/server/main.go
+D:\Baitap\Tester\Case study\Auto_sele\Supply-Service     npm start
+D:\Baitap\KTPM\Project\Mobile\Credential-Service
+
+{"payload": {"addressFrom": "227, Đường Nguyễn Văn Cừ, Quận 5, Thành phố Hồ Chí Minh, Vietnam", "addressTo": "431A, Hoàng Văn Thụ, Tân Bình, Thành phố Hồ Chí Minh, Vietnam, 700000", "latitudeFrom": "10.7628356", "latitudeTo": "10.7977566", "longitudeFrom": "106.6824824", "longitudeTo": "106.6590197", "price": 104705, "serviceCode": "Standard-4", "userId": "612345678901234567890123"}, "type": "booking"}
+{"payload": {"addressFrom": "227, Đường Nguyễn Văn Cừ, Quận 5, Thành phố Hồ Chí Minh, Vietnam", "addressTo": "431A, Hoàng Văn Thụ, Tân Bình, Thành phố Hồ Chí Minh, Vietnam, 700000", "latitudeFrom": "10.803783450680921", "latitudeTo": "10.7977566", "longitudeFrom": "106.70813745314999", "longitudeTo": "106.6590197", "price": 104705, "serviceCode": "Standard-4", "userId": "65017b605a2af267f728188a"}, "type": "booking"}
+ 
+{
+      "type": "cancel_booking",
+      "payload": {
+        "customerId": "612345678901234567890123"
+      }
+    }
+
+    {
+      "type": "cancel_trip",
+      "payload": {
+        "tripId": "612345678901234567890123"
+      }
+    }
+
+    {
+    "driverId":"1234",
+  "accountId": "account_id_123a34",
+  "firstName": "John", need
+  "lastName": "Doe", need
+  "phoneNumber": "1234553678190", need
+  "destination": {
+    "type": "Point",
+    "coordinates": [123.111,12.12]
+  },
+  "vehicleType": "SUV",
+  "driverType": "Professional",
+  "vehiclePlate": "ABC123",
+  "driverAvatar": "https://example.com/avatar.jpg",
+  "numberSeat": 5
+}
+
+
+{
+  "email": "driver123@gmail.com",
+  "password": "123456789",
+  "firstName": "Tri",
+  "lastName": "Do",
+  "gender": "male",
+  "phone": "0901234567",
+  "role": "driver",
+  "vehiclePlate": "112233",
+  "vehicleType": "Toyota",
+  "driverType": "Standard",
+  "numberSeat": 4
+}
